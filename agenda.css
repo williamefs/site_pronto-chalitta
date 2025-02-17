@@ -1,0 +1,220 @@
+body {
+  background-image: url('./img/fundo_agenda.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+  margin-top: -70px;
+}
+
+.cabecalho img {
+  max-width: 500px;
+  height: auto;
+  margin: 50px;
+}
+
+h2 {
+  color: rgb(5, 5, 5);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.5rem;
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  margin-left: -45px;
+  height: 500px;
+  margin-right: 220px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+section {
+  background-color: rgba(7, 43, 206, 0.8);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(100, 10, 10);
+  background-color: white;
+  border-radius: 80px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.spc_final {
+  background-color: rgba(228, 17, 17, 0);
+  padding: 50px;
+}
+
+.botao_agendar,
+.botao_voltar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn_agendar,
+.btn_voltar {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn_agendar:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(100, 10, 10);
+  transform: scale(1.1);
+}
+
+.btn_voltar:hover {
+  color: rgb(5, 5, 5);
+  background-color: rgb(13, 203, 250);
+  transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 1123px) {
+  .cabecalho h2 {
+    font-size: 2rem;
+  }
+
+  .cabecalho img {
+    width: 150px;
+  }
+
+  .conteudo {
+    margin-top: 280px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn_agendar,
+  .btn_voltar {
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .cabecalho img {
+    max-width: 200px;
+  }
+
+  .conteudo {
+    margin-top: 240px;
+    padding: 20px;
+  }
+
+  .cabecalho h2 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn_agendar,
+  .btn_voltar {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  input {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  body{
+    background-image: url('img/fundo_celular.png');
+  }
+  .cabecalho img {
+    max-width: 100px;
+  }
+
+  .conteudo {
+    margin-top: -40px;
+    padding: 60px;
+   margin-left: -43px;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+
+  .cabecalho h2 {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+
+  .btn_agendar,
+  .btn_voltar {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  input {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+}

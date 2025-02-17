@@ -1,0 +1,307 @@
+body {
+  background-image: url('./img/fundo_sec.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+  padding: 10%;
+  text-align: center;
+}
+
+/* 
+h1 {
+  margin-top: -350px;
+  text-align: center;
+  color: rgba(2, 2, 2, 0.932);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+}
+*/
+h2 {
+  text-align: center;
+  color: rgb(248, 248, 248);
+  margin-top: 10px;
+  font-size: 1rem;
+  /* Tamanho responsivo */
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  margin: -200px auto;
+  max-width: 500px;
+  height: auto;
+}
+
+.conteudo {
+  margin: 0 auto;
+  padding: 300px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+ul {
+  background-color: rgba(7, 43, 206, 0.801);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  margin: -350px auto;
+  padding: 200px;
+  list-style-type: none;
+  max-width: 700px;
+}
+
+
+ul h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  color: rgb(100, 10, 10);
+  margin-top: -20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(233, 222, 222);
+  
+padding: 10px;
+  font-size: 1rem;
+  /* Tamanho responsivo */
+  background-color: rgb(100, 10, 10);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.img_01 {
+  display: block;
+  margin: 20px auto;
+  width: 50px;
+  height: auto;
+}
+
+/*---------------------------------------------------- começo das botões ---------------------------------------------------- */
+.botao_voltar {
+  text-align: center;
+  margin: -80px 0;
+  margin-bottom: 3rem;
+}
+
+.btn_volt {
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.534);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn_volt:hover {
+  background-color: rgba(7, 43, 206, 0.801);
+  color: white;
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.botao_agendar {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.btn_agendar {
+  margin-top: 16px;
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(247, 246, 242);
+  background-color: rgba(0, 0, 0, 0.986);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn_agendar:hover {
+  background-color: rgb(100, 10, 10);
+  color: white;
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+  .cabecalho img {
+    margin-top: -20px;
+    width: 850px;
+
+  }
+
+  .cabecalho {
+    margin-bottom: 105px;
+  }
+
+  .conteudo {
+    padding: 2rem 0.1rem;
+    margin-bottom: 20rem;
+    font-size: 1rem;
+  }
+
+  h1 {  
+    font-size: 2.5rem;
+  }
+
+  ul {
+    margin-top: -20px;
+  }
+
+  h2 {
+    margin-left: -100px;
+    font-size: 2px;
+  }
+
+  ul h4 {
+    font-size: 1.0rem;
+    margin-top: -100px;
+    margin-bottom: 5rem;
+    padding: 10px 80px;
+    margin-left: -80px;
+    text-align: center;
+  }
+
+  li {
+    background-color: rgb(100, 10, 10);
+    border-radius: 20px;
+    margin-bottom: none;
+    font-size: 0.9rem;
+    margin-right: -120px;
+    margin-bottom: 10px;
+
+  }
+
+  .btn_volt,
+  .btn_agendar {
+    font-size: 0.9rem;
+    padding: -100px 50px;
+  }
+}
+
+/* Responsividade  diminuir tela */
+@media (max-width: 1648px) {
+
+  .cabecalho img {
+    margin-top: -20px;
+    width: 850px;
+
+  }
+
+  .cabecalho {
+    margin-bottom: 105px;
+  }
+
+  .conteudo {
+    padding: 2rem 0.1rem;
+    margin-bottom: 20rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    margin-top: -20px;
+  }
+
+  h2 {
+    margin-left: -100px;
+    font-size: 15px;
+  }
+
+  ul h4 {
+    font-size: 1.0rem;
+    margin-top: -100px;
+    margin-bottom: 5rem;
+    padding: 10px 80px;
+    margin-left: -80px;
+    text-align: center;
+  }
+
+  li {
+    font-size: 0.9rem;
+    margin-left: -150px;
+    
+  }
+
+  .btn_volt,
+  .btn_agendar {
+    font-size: 0.9rem;
+    padding: -100px 50px;
+  }
+}
+
+/* Responsividade  CELULARES*/
+@media (max-width: 480px) {
+  body{
+    background-image: url( 'img/fundo_celular.png');
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  ul {
+    padding: 120px;
+    margin-left: 50px;
+  }
+
+  ul h4 {
+    margin-bottom: 40px;
+    margin-right: -40px;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  ul h2 {
+    text-align: center;
+    font-size: 10px;
+    padding-inline-end: -120px;
+   
+  }
+
+  li {
+    font-size: 10px;
+    padding-inline-end: 10px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  .btn_volt,
+  .btn_agendar {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .conteudo {
+    margin-left: -50px;
+padding: -10px;
+
+  }
+}

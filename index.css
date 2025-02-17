@@ -1,0 +1,343 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(100, 10, 10);
+  font-weight: bold;
+}
+
+
+.lista {
+  margin-top: 0;
+  text-align: center;
+}
+
+.lista ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.lista li {
+  margin: 20px;
+}
+
+/*--
+.logo {
+  margin-left: -100px;
+  display: flex;
+  align-items: center;
+}
+  -*/
+.logo h4 {
+  color: white;
+}
+
+
+/*---------------------------------------------------- botões---------------------------------------------------- */
+.botoes {
+  position: fixed;
+  margin-left: 1200px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  color: rgb(255, 251, 251);
+  background-color: rgba(7, 43, 206, 0.904);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+
+}
+
+.btn:hover {
+  background-color: rgba(7, 43, 206, 0.911);
+  color: white;
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.btn_inicial {
+  margin-top: 5px;
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(245, 244, 244);
+  background-color: rgba(2, 2, 2, 0.767);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.btn_inicial:hover {
+  background-color: rgba(10, 10, 10, 0.801);
+  color: white;
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.btn_inicio{
+  margin-top: 5px;
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(245, 244, 244);
+  background-color: rgba(9, 200, 248, 0.767);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.btn_inicio:hover {
+  background-color: rgba(9, 200, 248, 0.767);
+  color: rgb(7, 7, 7);
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+/*---------------------------------------------------- começo das divs ---------------------------------------------------- */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.part1 {
+  background-image: url('./img/fundo_inicial.png');
+  background-size: cover;
+  padding: 396px;
+  /*responsividade*/
+  max-width: 100%;
+  min-width: auto;
+}
+
+.part2 {
+  background-image: url('img/img_part2.jpg');
+  padding: 200px;
+}
+
+.part3 {
+  padding: 100px;
+  background-color: rgba(8, 8, 8, 0.993);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.imagens img {
+  margin-top: -300px;
+  max-width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.imagens img:hover {
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+/* .responsividade_logo img {
+  margin-top: -400px;
+  margin-bottom: -300px;
+  max-width: 100%;
+  /* Garante que a largura da imagem nunca ultrapasse a do contêiner 
+  height: auto;
+  /* Mantém a proporção da imagem
+}*/
+.link_fim h7 {
+  display: inline-block;
+  margin: 20px;
+}
+
+
+/*---------------------------------------------------- começo dos paragrafos ---------------------------------------------------- */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  margin-left: -330px;
+  margin-top: -205px;
+  position: relative;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -10px;
+  font-size: 4.5rem;
+  color: rgb(100, 10, 10);
+  margin-left: -330px;
+  position: relative;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000;
+}
+
+h3 {
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 1.9rem;
+  margin-left: -320px;
+  position: relative;
+
+  text-shadow: 2px 2px 2px #f8f8f8, -2px 2px #fcf8f8;
+}
+
+h5 {
+  padding: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 85px;
+  color: rgb(247, 240, 240);
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 80px;
+  text-shadow: 2px 2px 2px #000, -2px 2px #000;
+
+}
+
+.anima:hover {
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.link_fim img {
+  width: 60px;
+  height: auto;
+}
+
+.link_fim img:hover {
+  transition: transform 0.9s ease;
+  transform: scale(1.6);
+}
+
+.h7:hover {
+  transition: transform 0.9s ease;
+  transform: scale(1.1);
+}
+
+.part3 h6 {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -60px;
+  text-shadow: 2px 2px 2px #06138b, -2px 2px#06138b;
+}
+
+
+/* Responsividade  CELULARES*/
+@media (max-width: 812px) {
+
+  .part1 {
+    padding: 220px 380px;
+    max-width: 100%;
+  }
+
+  .part2 {
+    padding: 50px 210px;
+  }
+
+  .part2 h5 {
+    font-size: 50px;
+  }
+
+  .part3 {
+    padding: 150px 30px;
+  }
+
+  .part3 h6 {
+    text-align: center;
+  }
+
+  .link_fim {
+    margin-top: 80px;
+  }
+}
+
+/* Responsividade  CELULARES*/
+@media (max-width: 779px) {
+  body{
+    background-image: url('img/fundo_celular.png');
+  }
+  .part1 {
+    padding: 220px 10px;
+  }
+
+  .part1 h1 {
+    margin-top: -150px;
+    font-size: 32px;
+    margin-left: 30px;
+  }
+
+  .part1 h2 {
+    font-size: 3rem;
+    margin-left: 30px;
+  }
+
+  .part1 h3 {
+    font-size: 3rem;
+    margin-left: 50PX;
+    margin-bottom: -120px;
+  }
+
+  .part1 h3 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .part2 {
+    padding: 100px 20px;
+
+  }
+
+  .part2 img {
+    width: 190px;
+  }
+
+  .part2 h5 {
+    font-size: 35px;
+  }
+
+  .part3 {
+    padding: 150px 30px;
+  }
+
+  .part3 h6 {
+    text-align: center;
+    font-size: 15px;
+    
+  }
+
+  .link_fim {
+    margin-top: 10px;
+    width: 9px;
+    margin: 10px;
+  }
+
+  .link_fim h7 {
+   margin-inline: -100px;
+   width: 1.0rem;
+  margin-left: 20px;
+ margin-bottom: -300px;
+  }
+  }
